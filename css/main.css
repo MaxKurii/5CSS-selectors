@@ -1,17 +1,40 @@
 body {
-
   background: white;
   margin: 0;
   height: 100vh;
   width: 100vw;
+  display: flex;
+  justify-content: center;
+
 }
 
 .main {
+  width: 1600px;
   background: linear-gradient(to right, white 29%, pink 10%);
   background-size: 10% 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
 }
 
+.phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.setting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.speed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .title {
   text-transform: uppercase;
@@ -20,12 +43,9 @@ body {
 .icon {
   width: 150px;
   height: 150px;
-
-
   border: 1px solid #2a69a6;
   border-radius: 50%;
   display: flex;
-
 
 }
 
@@ -40,7 +60,6 @@ body {
   height: 70px;
   margin: auto;
   fill: #2a69a6;
-
 }
 
 .icon:hover .icon-image {
