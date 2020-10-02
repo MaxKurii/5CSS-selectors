@@ -1,0 +1,48 @@
+body {
+
+  background: white;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main {
+  background: linear-gradient(to right, white 29%, pink 10%);
+  background-size: 10% 10px;
+}
+
+
+
+.title {
+  text-transform: uppercase;
+}
+
+.icon {
+  width: 150px;
+  height: 150px;
+
+
+  border: 1px solid #2a69a6;
+  border-radius: 50%;
+  display: flex;
+
+
+}
+
+.icon:hover {
+  background-color: #2a69a6;
+  cursor: pointer;
+}
+
+.icon-image {
+
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  fill: #2a69a6;
+
+}
+
+.icon:hover .icon-image {
+  fill: white;
+}
