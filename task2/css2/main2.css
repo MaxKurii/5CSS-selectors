@@ -46,7 +46,9 @@ span {
 .helper-text {
   font-size: 11px;
 }
-
+.list-item:nth-child(1) {
+  background: #eb7e7f;
+}
 .list-item:before {
   content: '\2713';
   width: 20px;
